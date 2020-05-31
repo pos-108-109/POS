@@ -12,7 +12,6 @@ var Shop = {
 },
   addons: {"漢堡": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -28,7 +27,6 @@ var Shop1 = {
 },
   addons: {"蛋餅": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -44,7 +42,6 @@ var Shop2 = {
 },
   addons: {"總匯三明治": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -62,7 +59,6 @@ var Shop3= {
 },
   addons: {"吐司": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -75,7 +71,6 @@ var Shop4 = {
 },
   addons: {"抓餅": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -95,7 +90,6 @@ var Shop5 = {
 },
   addons: {"中式": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -114,7 +108,6 @@ var Shop6 = {
 },
   addons: {"小品": 0},
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }
 
@@ -136,6 +129,5 @@ var Shop7 = {
   "咖啡加大": 10
 },
   isComeToShop: true,
-  isMailToYou: false,
   isGoForYou: false
 }

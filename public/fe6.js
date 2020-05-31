@@ -1,4 +1,3 @@
-//傳送資料到想要的地方
 const fe6 = {}
 
 fe6.postJson = async function (path, obj) {

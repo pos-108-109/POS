@@ -1,4 +1,3 @@
-//計算
 const Lib = {}
 
 Lib.dateToString = function (date) {
@@ -13,6 +12,13 @@ Lib.dayRange = function (date) {
   const from = new Date(date.getFullYear(), date.getMonth(), date.getDate())
   const to = new Date(from)
   to.setDate(from.getDate() + 1)
+  return { from: from, to: to }
+}
+
+Lib.monthRange = function (date) {
+  const from = new Date(date.getFullYear(), date.getMonth(),date.getDate())
+  const to = new Date(from)
+  to.setDate(from.getMonth() + 1)
   return { from: from, to: to }
 }
 

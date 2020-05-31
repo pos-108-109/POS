@@ -1,4 +1,4 @@
-//新增訂單 
+/* eslint-disable no-undef */
 const Pos = {}
 
 const Pos1 = {}
@@ -40,9 +40,9 @@ Pos.html = `
   </table>
 </div>
 <br/>
-<div class="shop" style="width:500px">
+<div class="price" style="width:500px">
   <label>總價:</label>
-  <input id="totalPrice" type="number" min="1" value="0" onKeyDown="return false">
+  <input id="totalPrice" type="number" min="1" value="0" onKeyDown="return false" disabled>
   <button id="goShop" onclick="Pos.goShop()">回主選單</button>
   <button id="newOrder" onclick="Pos.start()" disabled="disabled">新增下一筆</button>
   <button id="abort" onclick="Pos.abort()">放棄訂單</button>

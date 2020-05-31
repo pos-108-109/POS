@@ -1,4 +1,3 @@
-//本日報表及本用報表
 const Report = {}
 
 Report.html = `
@@ -10,7 +9,7 @@ Report.html = `
       </table>
       <br/>
       <div class="center">
-        <label>本日總收入：</label>
+        <label>總收入：</label>
         <label id="dayTotal"></label>
         <br/><br/>
         <button onclick="ShopMain.start()">回主選單</button>

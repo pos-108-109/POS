@@ -1,4 +1,3 @@
-//讀取商品跟資料庫延接的程式
 const Db = {}
 
 Db.load = function (path) {

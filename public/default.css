@@ -508,8 +508,12 @@ html, body
 
 	#three-column
 	{
+		border-top: 1px;
 		text-align: center;
+		background-color: #FFF;
 		color: rgba(0,0,0,0.6);
+		height: auto;
+		width: auto;
 	}
 
 	#three-column .fa

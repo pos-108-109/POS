@@ -1,11 +1,10 @@
-//主選單
 const ShopMain = {}
 
 ShopMain.html = `
 <div class="shop">
   <button class="big" onclick="fe6.go('pos')">新增訂單</button><br/><br/>
   <button class="big" onclick="fe6.go('todayReport')">本日報表</button><br/><br/>
-  <button class="big" onclick="fe6.go('report')">全月報表</button><br/><br/>
+  <button class="big" onclick="fe6.go('report')">本月報表</button><br/><br/>
   <button class="big" onclick="fe6.go('settingselect')">商店設定</button><br/><br/>
 </div>
 `
@@ -20,6 +19,7 @@ ShopMain.leftMenuHtml = `
 `
 
 ShopMain.start = function () {
+  document.querySelector('.navbar').style.visibility = "visible"
   Shop = Db.load('Shop') || Shop
   fe6.go('shop')
   fe6.show(ShopMain.html)
